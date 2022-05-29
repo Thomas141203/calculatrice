@@ -75,6 +75,7 @@ body{
     border-left: 1px solid #0004;
     border-bottom: 1px solid #0004;
     border-top: 1px solid #0009;
+    border-right: 1px solid #0009;
 }
 
 .calculator span:active{
@@ -96,9 +97,7 @@ body{
 
 .calculator .clear::before{
     background: linear-gradient(90deg, #d20000, #ffffff5c);
-    border-left: 1px solid #fff4;
-    border-bottom: 1px solid #fff4;
-    border-top: 1px solid #fff4;
+    border: 1px solid #fff4;
 }
 
 .calculator .plus{
